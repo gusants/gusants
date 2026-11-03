@@ -1,6 +1,6 @@
 # Hi, I'm Gustavo
 
-Senior Backend Engineer focused on payments and distributed systems, based in Brazil (UTC-3).
+Backend Engineer focused on payments and distributed systems, based in Brazil (UTC-3).
 
 For the past 4+ years, I've been building and modernizing platforms in lean startup teams
 with Node.js, TypeScript, NestJS, React and AWS. Most of my work sits where reliability
