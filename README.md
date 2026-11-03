@@ -14,7 +14,7 @@ matters most: payment flows, recurring subscriptions and the APIs around them.
 - Cut frontend build time by 90% (React 16 to 19 with Vite) and test suite time by 75% (Jest to Vitest)
 
 ## Currently building
-- **[subscription-payments-api](link)**: subscription billing API with dunning, idempotent webhooks, BullMQ and an LLM-powered customer summary
+- **[subscription-payments-api](https://github.com/gusants/subscription-payments-api)**: subscription billing API with dunning, idempotent webhooks, BullMQ and an LLM-powered customer summary
 - **[subscription-billing-dashboard](link)**: React 19 + Vite dashboard with a live demo
 - **[legacy-migration-strangler](link)**: legacy-to-NestJS migration with shared contract tests and an SQS + Lambda router
 
