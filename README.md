@@ -34,4 +34,4 @@ matters most: payment flows, recurring subscriptions and the APIs around them.
 ## Let's talk
 Open to international remote opportunities, with full overlap with US Eastern business hours.
 
-[LinkedIn]([https://www.linkedin.com/in/gustavo-ferreira-santos) · gusantos1704@gmail.com
+[LinkedIn](https://www.linkedin.com/in/gustavo-ferreira-santos) · gusantos1704@gmail.com
