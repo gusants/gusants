@@ -2,36 +2,40 @@
 
 Backend Engineer focused on payments and distributed systems, based in Brazil (UTC-3).
 
-For the past 4+ years, I've been building and modernizing platforms in lean startup teams
-with Node.js, TypeScript, NestJS, React and AWS. Most of my work sits where reliability
-matters most: payment flows, recurring subscriptions and the APIs around them.
+For the past 4+ years, I've been building and modernizing platforms in lean startup teams with Node.js, TypeScript, NestJS, React and AWS. Most of my work sits where reliability matters most: payment flows, recurring subscriptions and the APIs around them.
 
 ## Career highlights
-- Contributed to a 15% reduction in payment delinquency by integrating new payment methods, as the sole backend engineer on the project
+
+- Contributed to a 15% reduction in payment delinquency by integrating Pix and boleto payments, as the sole backend engineer on the project
 - Cut incident investigation time by 30% with end-to-end observability on payment flows
 - Drove a gradual migration from a legacy backend to NestJS, using AWS Lambda and SQS to route messages between both systems
 - Built the test suite for payment services from scratch, taking coverage from 0% to 85%
 - Cut frontend build time by 90% (React 16 to 19 with Vite) and test suite time by 75% (Jest to Vitest)
 
-## Currently building
-- **[subscription-payments-api](https://github.com/gusants/subscription-payments-api)**: subscription billing API with dunning, idempotent webhooks, BullMQ and an LLM-powered customer summary
-- **[subscription-billing-dashboard](https://github.com/gusants/subscription-billing-dashboard)**: React 19 + Vite billing dashboard for that API, with a simulator that changes the data live ([live demo](https://cadencia-billing.gusantos1704.workers.dev))
-- **[legacy-migration-strangler](link)**: legacy-to-NestJS migration with shared contract tests and an SQS + Lambda router
+## Projects
+
+- **[subscription-payments-api](https://github.com/gusants/subscription-payments-api)**: NestJS subscription billing API with dunning (BullMQ), idempotent HMAC-signed webhooks, OpenTelemetry tracing and an LLM-powered customer summary, tested with Testcontainers in CI
+- **[subscription-billing-dashboard](https://github.com/gusants/subscription-billing-dashboard)**: React 19 + Vite billing dashboard for that API, typed from its OpenAPI contract, with a simulator that changes the data live ([live demo](https://cadencia-billing.gusantos1704.workers.dev))
+- **[legacy-migration-strangler](https://github.com/gusants/legacy-migration-strangler)** *(work in progress)*: legacy PHP to NestJS migration with shared contract tests and an SQS + Lambda router
 
 ## How I work
+
 - End-to-end ownership, from architecture to production and monitoring
 - Tests and observability as part of the feature, not an afterthought
 - Code review as a daily habit, around 10 pull requests a day
 
 ## Tech stack
-**Backend:** Node.js · TypeScript · NestJS · Express · REST APIs
-**Frontend:** React · Vite
-**Data:** MongoDB · Redis · PostgreSQL
-**Cloud & infra:** AWS (Lambda, SQS, API Gateway) · Docker
-**Queues:** BullMQ · SQS
-**Quality:** Vitest · Jest
+
+- **Backend:** Node.js · TypeScript · NestJS · Express · REST APIs · OpenAPI
+- **Frontend:** React · Vite · Tailwind CSS · TanStack (Query, Router, Form)
+- **Data:** PostgreSQL · Prisma · MongoDB · Redis
+- **Messaging:** BullMQ · Amazon SQS
+- **Cloud & infra:** AWS (Lambda, SQS, API Gateway) · Docker · Cloudflare Workers · GitHub Actions
+- **Observability:** OpenTelemetry · Pino
+- **Quality:** Vitest · Jest · Testing Library · Playwright · Testcontainers
 
 ## Let's talk
+
 Open to international remote opportunities, with full overlap with US Eastern business hours.
 
 [LinkedIn](https://www.linkedin.com/in/gustavo-ferreira-santos) · gusantos1704@gmail.com
