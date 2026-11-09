@@ -15,7 +15,7 @@ matters most: payment flows, recurring subscriptions and the APIs around them.
 
 ## Currently building
 - **[subscription-payments-api](https://github.com/gusants/subscription-payments-api)**: subscription billing API with dunning, idempotent webhooks, BullMQ and an LLM-powered customer summary
-- **[subscription-billing-dashboard](https://github.com/gusants/subscription-billing-dashboard)**: React 19 + Vite dashboard with a live demo
+- **[subscription-billing-dashboard](https://github.com/gusants/subscription-billing-dashboard)**: React 19 + Vite billing dashboard for that API, with a simulator that changes the data live ([live demo](https://cadencia-billing.gusantos1704.workers.dev))
 - **[legacy-migration-strangler](link)**: legacy-to-NestJS migration with shared contract tests and an SQS + Lambda router
 
 ## How I work
