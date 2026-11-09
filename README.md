@@ -7,7 +7,7 @@ with Node.js, TypeScript, NestJS, React and AWS. Most of my work sits where reli
 matters most: payment flows, recurring subscriptions and the APIs around them.
 
 ## Career highlights
-- Reduced user delinquency by 15% by integrating new payment methods, as the sole backend engineer on the project
+- Contributed to a 15% reduction in payment delinquency by integrating new payment methods, as the sole backend engineer on the project
 - Cut incident investigation time by 30% with end-to-end observability on payment flows
 - Drove a gradual migration from a legacy backend to NestJS, using AWS Lambda and SQS to route messages between both systems
 - Built the test suite for payment services from scratch, taking coverage from 0% to 85%
