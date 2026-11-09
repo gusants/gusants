@@ -15,7 +15,7 @@ For the past 4+ years, I've been building and modernizing platforms in lean star
 ## Projects
 
 - **[subscription-payments-api](https://github.com/gusants/subscription-payments-api)**: NestJS subscription billing API with dunning (BullMQ), idempotent HMAC-signed webhooks, OpenTelemetry tracing and an LLM-powered customer summary, tested with Testcontainers in CI
-- **[subscription-billing-dashboard](https://github.com/gusants/subscription-billing-dashboard)**: React 19 + Vite billing dashboard for that API, typed from its OpenAPI contract, with a simulator that changes the data live ([live demo](https://cadencia-billing.gusantos1704.workers.dev))
+- **[subscription-billing-dashboard](https://github.com/gusants/subscription-billing-dashboard)**: React 19 + Vite billing dashboard for that API, typed from its OpenAPI contract, with a simulator that changes the data live ([live demo](https://gusants.github.io/subscription-billing-dashboard/))
 - **[legacy-migration-strangler](https://github.com/gusants/legacy-migration-strangler)** *(work in progress)*: legacy PHP to NestJS migration with shared contract tests and an SQS + Lambda router
 
 ## How I work
